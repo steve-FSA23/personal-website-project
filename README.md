@@ -1,6 +1,6 @@
 # personal-website-project
 
-#Simple Resume
+# Simple Resume
 Use pair programming to complete the following tasks: 
 
 Decide which partner is going to be the driver and which is the navigator. 
@@ -10,7 +10,7 @@ NOTE: A simple resume might consist of a large heading (containing your name), s
 
 
 
-#Tic Tac Toe
+# Tic Tac Toe
 Use pair programming to complete the following tasks: 
 
 Switch role as driver/navigator.
