@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+/* Tic-Tac-Toe */
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.board {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin: auto;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blueviolet;
+    font-size: 40px;
+}
