@@ -1,3 +1,145 @@
+/* Resume */
+
+.header-container {
+    font-family: "Lucida Sans", "Lucida Sans Regular", sans-serif;
+    text-align: center;
+    border-bottom: 2px solid rgb(115, 136, 150);
+    padding: 1rem;
+    color: rgb(49, 63, 121);
+    width: 50%;
+    margin: auto;
+}
+
+.header-container h1 {
+    font-size: 2.4em;
+}
+
+.header-subContainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.body-container {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+}
+
+section h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: rgb(49, 63, 121);
+}
+
+.professional-summary p {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.body-container section article p {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.body-container section article span {
+    font-weight: 400;
+    font-size: 0.85em;
+}
+
+section article ul li {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    margin-bottom: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.skills-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.education-container p {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.education-container p span {
+    font-weight: 400;
+}
+
+.education-container ul li {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.certification-container p {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.certification-container p span {
+    font-weight: 400;
+}
+
+.certification-container ul li {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: whitesmoke;
+    width: 20%;
+    height: 4rem;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+    font-family: sans-serif;
+}
+
+footer a:hover {
+    transform: scale(1.05);
+}
+
+/* Tic Tac Toe */
+
 .cell {
     width: 75px;
     height: 75px;
@@ -22,6 +164,7 @@
 
 #restartBtn {
     width: 200px;
+    margin: 1rem;
     height: 3rem;
     border-radius: 5px;
     border: none;
@@ -30,6 +173,11 @@
     font-size: 1.2em;
     cursor: pointer;
     transition: all 1s ease;
+}
+
+#restartBtn a {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 #restartBtn:hover {
