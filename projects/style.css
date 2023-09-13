@@ -1,28 +1,38 @@
-* {
-    font-family: sans-serif;
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid blueviolet;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    cursor: pointer;
+    font-size: 3em;
 }
 
-/* Tic-Tac-Toe */
-
-h1 {
+#board {
+    font-family: "Permanent Marker", cursive;
     text-align: center;
-    margin: 2rem;
 }
 
-.board {
-    width: 300px;
-    height: 300px;
+#cellContainer {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
     margin: auto;
 }
 
-.cell {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    border: 1px solid blueviolet;
-    font-size: 40px;
+#restartBtn {
+    width: 200px;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(22, 17, 17);
+    color: whitesmoke;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+#restartBtn:hover {
+    filter: brightness(120%);
+    transform: scale(1.05);
 }
